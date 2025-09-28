@@ -29,7 +29,7 @@
             "5. DeeDee Marié Holliday", "6. Hana Beshie", "7. Matilduh", "8. M1ss Jade So", 
             "9. Nicole Pardaux", "10. ØV Cünt", "11. Tiny Deluxe", "12. Veruschka Levels"};
 
-             string[] quotes2 = {
+             string[] quotes2 = {                                                                   // Season 2 Queens
             "Ito ang tunay na shot puno! Aaahhh!",                                                  // Arizona Brandy
             "Mercury is in retrograde!",                                                            // Astrid Mercury
             "Hello, mga Didays!",                                                                   // Bernie
