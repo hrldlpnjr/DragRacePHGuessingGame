@@ -151,7 +151,7 @@
                         else
                         {
                             Console.WriteLine("SASHAY AWAY! </3");
-                            Console.WriteLine($"Mali! It was {queens1[correctAnswer - 1]}");
+                            Console.WriteLine($"Mali! It was {queens2[correctAnswer - 1]}");
                         }
 
                         // Play pa ba or naur na
