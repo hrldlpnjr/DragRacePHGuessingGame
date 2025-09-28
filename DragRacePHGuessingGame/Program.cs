@@ -30,7 +30,7 @@
 
             while (Menu)
             {
-                Console.WriteLine("🌟 DRAG RACE PHILIPPINES QUOTETIVITY GUESSING GAME 🌟");
+                Console.WriteLine("DRAG RACE PHILIPPINES QUOTETIVITY GUESSING GAME");
                 Console.WriteLine("Choose your Season:");
                 Console.WriteLine("1. Season 1 - AVAILABLE ✨");
                 Console.WriteLine("2. Season 2 - HINDI PA NAGAGAWA TEH 🚧");
