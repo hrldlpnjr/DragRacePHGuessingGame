@@ -10,7 +10,7 @@
             "Prince", "Turing", "Viñas DeLuxe", "Xilhouete" };
 
             string[] quotes = {
-                       "Finally! I'm here! Bring it on, girls!",           							// 1. Brigiding
+            "Finally! I'm here! Bring it on, girls!",           							// 1. Brigiding
             "Happy Fiesta! Mga Sis! Diyan muna kayo sa likod tatawagin na lang kapag may tira.", 	// 2. Corazon
             "Mirror Mirror on the wall, who's the baddest bitch of them all?", 						// 3. Eva Le Queen
             "Time Time! And I'm ready seat that throne, Bitches!",									// 4. Gigi Era
