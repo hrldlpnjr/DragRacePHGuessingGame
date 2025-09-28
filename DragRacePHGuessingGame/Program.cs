@@ -30,13 +30,14 @@
             while (Menu)
             {
                 Console.WriteLine("DRAG RACE PHILIPPINES QUOTETIVITY GUESSING GAME");
+                Console.WriteLine();
                 Console.WriteLine("Choose your Season:");
                 Console.WriteLine("1. Season 1 - AVAILABLE");
                 Console.WriteLine("2. Season 2 - HINDI PA NAGAGAWA TEH");
                 Console.WriteLine("3. Season 3 - HINDI PA RIN NGA NAGAGAWA");
                 Console.WriteLine("4. Exit");
                 Console.WriteLine();
-                Console.WriteLine("Choose (1-4): ");
+                Console.Write("Choose (1-4): ");
 
                 int SeasonInput = int.Parse(Console.ReadLine());
 
@@ -71,7 +72,7 @@
                         if (userGuess == correctAnswer)
                         {
                             Console.WriteLine("SHANTAY YOU STAY!");
-                            Console.WriteLine("Tama! You know your queens!");
+                            Console.WriteLine("Tama! You know your queens HA!");
                         }
                         else
                         {
@@ -108,7 +109,7 @@
                 else if (SeasonInput == 4)
                 {
                         Console.Clear();
-                        Console.WriteLine("Sashay away! Thanks for playing!");
+                        Console.WriteLine("Sashay away! Thanks for playing ACCLA!");
                         Menu = false;
                 }
             }
