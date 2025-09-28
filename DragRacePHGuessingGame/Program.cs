@@ -4,12 +4,12 @@
     {
         static void Main(string[] args)
         {
-            string[] queens =
+            string[] queens1 =
             {"1.Brigiding", "2. Corazon", "3. Eva Le Queen", "4. Gigi Era",
             "5. Lady Morgana", "6. Marina Summers", "7. Minty Fresh", "8. Precious Paula Nicole",
             "9. Prince", "10. Turing", "11. Viñas DeLuxe", "12. Xilhouete" };
 
-            string[] quotes = {
+            string[] quotes1 = {
             "Finally! I'm here! Bring it on, girls!",           							        // 1. Brigiding
             "Happy Fiesta! Mga Sis! Diyan muna kayo sa likod tatawagin na lang kapag may tira.", 	// 2. Corazon
             "Mirror Mirror on the wall, who's the baddest bitch of them all?", 						// 3. Eva Le Queen
@@ -49,8 +49,8 @@
                         Console.Clear();
 
                         // Queens Random Quotivity
-                        int randomIndex = random.Next(quotes.Length);
-                        string currentQuote = quotes[randomIndex];
+                        int randomIndex = random.Next(quotes1.Length);
+                        string currentQuote = quotes1[randomIndex];
                         int correctAnswer = randomIndex + 1;
 
                         // Quote Keme
@@ -59,8 +59,8 @@
                         Console.WriteLine();
 
                         // Show all Drag Queens
-                        for (int i = 0; i < queens.Length; i++)
-                        { Console.WriteLine(queens[i]); }
+                        for (int i = 0; i < queens1.Length; i++)
+                        { Console.WriteLine(queens1[i]); }
 
                         // Get user's Input Guesss
                         Console.WriteLine();
@@ -77,7 +77,7 @@
                         else
                         {
                             Console.WriteLine("SASHAY AWAY! </3");
-                            Console.WriteLine($"Mali! It was {queens[correctAnswer - 1]}");
+                            Console.WriteLine($"Mali! It was {queens1[correctAnswer - 1]}");
                         }
 
                         // Play pa ba or naur na
