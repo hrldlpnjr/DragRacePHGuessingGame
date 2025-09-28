@@ -27,17 +27,37 @@
             Random random = new Random();
             bool Menu = true;
 
+
+            while (Menu)
+            { 
+
             Console.WriteLine("🌟 DRAG RACE PHILIPPINES QUOTETIVITY GUESSING GAME 🌟");
             Console.WriteLine("Choose your Season:");
             Console.WriteLine("1. Season 1 - AVAILABLE ✨");
             Console.WriteLine("2. Season 2 - HINDI PA NAGAGAWA TEH 🚧");
             Console.WriteLine("3. Season 3 - HINDI PA RIN NGA NAGAGAWA 🚧");
             Console.WriteLine("4. Exit");
+            Console.WriteLine();
+            Console.WriteLine("Choose (1-4): ");
 
-            Console.WriteLine("Choose: ");
+            int SeasonInput = int.Parse(Console.ReadLine());
 
-            string userInput = Console.ReadLine();
-            Console.WriteLine("You chose: " + userInput);
+            if (SeasonInput == 1)
+                {
+                    bool PlayAgain = true;
+                        while (PlayAgain)
+                    {
+                        Console.Clear();
+
+                        int randomIndex = random.Next(quotes.Length);
+                        string CurrentQuote = quotes[randomIndex];
+                        int correctAnswer = randomIndex + 1;
+                    }
+                }
+
+
+
+            }
         }
     }
 }
