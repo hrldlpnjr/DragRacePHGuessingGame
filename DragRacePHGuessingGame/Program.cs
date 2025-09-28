@@ -94,7 +94,22 @@
                         }
                     }
                 }
-                else if (SeasonInput == 2 || SeasonInput == 3)
+
+                if (SeasonInput == 2)
+                {
+                       
+
+
+
+
+
+
+
+
+
+                }
+
+                else if (SeasonInput == 3)
                 {
                         // Under Construction
                         Console.Clear();
