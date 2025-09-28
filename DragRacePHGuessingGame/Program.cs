@@ -30,18 +30,18 @@
             "9. Nicole Pardaux", "10. ØV Cünt", "11. Tiny Deluxe", "12. Veruschka Levels"};
 
              string[] quotes2 = {
-            "Ito ang tunay na shot puno! Aaahhh!",
-            "Mercury is in retrograde!",
-            "Hello, mga Didays!",
-            "Ah Eh! Maganda ba ako sa picture?",
-            "Well, well I'm horny",
-            "The bluetooth device is ready to pair",
-            "Handuh? na ba kayo?",
-            "It's raining men",
-            "Dong ari diri sapak mami bi!",
-            "Bakit kasi hindi kayo makuha sa tingin?",
-            "Chubby huh?",
-            "Bitch! The goddess is here!"
+            "Ito ang tunay na shot puno! Aaahhh!",                                                  // Arizona Brandy
+            "Mercury is in retrograde!",                                                            // Astrid Mercury
+            "Hello, mga Didays!",                                                                   // Bernie
+            "Ah Eh! Maganda ba ako sa picture?",                                                    // Captivating Katkat
+            "Well, well I'm horny",                                                                 // DeeDee Marié Holliday
+            "The bluetooth device is ready to pair",                                                // Hana Beshie
+            "Handuh? na ba kayo?",                                                                  // Matilduh
+            "It's raining men",                                                                     // M1ss Jade So
+            "Dong ari diri sapak mami bi!",                                                         // Nicole Pardaux
+            "Bakit kasi hindi kayo makuha sa tingin?",                                              // ØV Cünt
+            "Chubby huh?",                                                                          // Tiny Deluxe
+            "Bitch! The goddess is here!"                                                           // Veruschka Levels
              };
                 
             Random random = new Random();
