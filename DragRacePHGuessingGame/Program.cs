@@ -53,7 +53,7 @@
                 Console.WriteLine();
                 Console.WriteLine("Choose your Season:");
                 Console.WriteLine("1. Season 1 - AVAILABLE");
-                Console.WriteLine("2. Season 2 - HINDI PA NAGAGAWA TEH");
+                Console.WriteLine("2. Season 2 - AVAILABLE");
                 Console.WriteLine("3. Season 3 - HINDI PA RIN NGA NAGAGAWA");
                 Console.WriteLine("4. Exit");
                 Console.WriteLine();
@@ -117,16 +117,56 @@
 
                 if (SeasonInput == 2)
                 {
-                       
+                    bool PlayAgain = true;
+                    while (PlayAgain)
+                    {
+                        Console.Clear();
 
+                        // Queens Random Quotivity
+                        int randomIndex = random.Next(quotes1.Length);
+                        string currentQuote = quotes2[randomIndex];
+                        int correctAnswer = randomIndex + 1;
 
+                        // Quote Keme
+                        Console.WriteLine("SEASON 2 - GUESS THE QUEEN!");
+                        Console.WriteLine($"Quote: \"{currentQuote}\"");
+                        Console.WriteLine();
 
+                        // Show all Drag Queens
+                        for (int i = 0; i < queens2.Length; i++)
+                        { Console.WriteLine(queens2[i]); }
 
+                        // Get user's Input Guesss
+                        Console.WriteLine();
+                        Console.Write("Your answer (1-12): ");
+                        int userGuess = int.Parse(Console.ReadLine());
 
+                        // Check Answer ni User Accla
+                        Console.WriteLine();
+                        if (userGuess == correctAnswer)
+                        {
+                            Console.WriteLine("SHANTAY YOU STAY!");
+                            Console.WriteLine("Tama! You know your queens HA!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("SASHAY AWAY! </3");
+                            Console.WriteLine($"Mali! It was {queens1[correctAnswer - 1]}");
+                        }
 
+                        // Play pa ba or naur na
+                        Console.WriteLine();
+                        Console.WriteLine("1. Play Again");
+                        Console.WriteLine("2. Back to Main Menu");
+                        Console.Write("Choose (1-2): ");
 
+                        int nextChoice = int.Parse(Console.ReadLine());
 
-
+                        if (nextChoice == 2)
+                        {
+                            PlayAgain = false;
+                        }
+                    }
                 }
 
                 else if (SeasonInput == 3)
