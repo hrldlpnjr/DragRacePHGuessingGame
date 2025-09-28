@@ -101,11 +101,15 @@
                         // Under Construction
                         Console.Clear();
                         Console.WriteLine("🚧 UNDER CONSTRUCTION 🚧");
-                        Console.WriteLine($"Season {seasonChoice} is coming soon!");
+                        Console.WriteLine($"Season {SeasonInput} is coming soon!");
                         Console.WriteLine("Abangan ninyo, mga mare! 💅");
                         Console.WriteLine();
                         Console.WriteLine("Press any key to go back...");
                         Console.ReadKey();
+                }
+                else if (SeasonInput == 4)
+                {
+
                 }
 
             }
