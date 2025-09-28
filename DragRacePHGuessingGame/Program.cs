@@ -32,9 +32,9 @@
             {
                 Console.WriteLine("DRAG RACE PHILIPPINES QUOTETIVITY GUESSING GAME");
                 Console.WriteLine("Choose your Season:");
-                Console.WriteLine("1. Season 1 - AVAILABLE ✨");
-                Console.WriteLine("2. Season 2 - HINDI PA NAGAGAWA TEH 🚧");
-                Console.WriteLine("3. Season 3 - HINDI PA RIN NGA NAGAGAWA 🚧");
+                Console.WriteLine("1. Season 1 - AVAILABLE");
+                Console.WriteLine("2. Season 2 - HINDI PA NAGAGAWA TEH");
+                Console.WriteLine("3. Season 3 - HINDI PA RIN NGA NAGAGAWA");
                 Console.WriteLine("4. Exit");
                 Console.WriteLine();
                 Console.WriteLine("Choose (1-4): ");
@@ -54,7 +54,7 @@
                         int correctAnswer = randomIndex + 1;
 
                         // Quote Keme
-                        Console.WriteLine("🎤 SEASON 1 - GUESS THE QUEEN! 🎤");
+                        Console.WriteLine("SEASON 1 - GUESS THE QUEEN!");
                         Console.WriteLine($"Quote: \"{currentQuote}\"");
                         Console.WriteLine();
 
@@ -71,7 +71,7 @@
                         Console.WriteLine();
                         if (userGuess == correctAnswer)
                         {
-                            Console.WriteLine("✨ SHANTAY YOU STAY! ✨");
+                            Console.WriteLine("SHANTAY YOU STAY!");
                             Console.WriteLine("Tama! You know your queens!");
                         }
                         else
@@ -99,9 +99,9 @@
                 {
                         // Under Construction
                         Console.Clear();
-                        Console.WriteLine("🚧 UNDER CONSTRUCTION 🚧");
+                        Console.WriteLine("UNDER CONSTRUCTION");
                         Console.WriteLine($"Season {SeasonInput} is coming soon!");
-                        Console.WriteLine("Abangan ninyo, mga mare! 💅");
+                        Console.WriteLine("Abangan ninyo, mga mare!");
                         Console.WriteLine();
                         Console.WriteLine("Press any key to go back...");
                         Console.ReadKey();
@@ -109,7 +109,7 @@
                 else if (SeasonInput == 4)
                 {
                         Console.Clear();
-                        Console.WriteLine("💋 Sashay away! Thanks for playing! 💋");
+                        Console.WriteLine("Sashay away! Thanks for playing!");
                         Menu = false;
                 }
             }
