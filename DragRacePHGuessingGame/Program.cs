@@ -5,9 +5,9 @@
         static void Main(string[] args)
         {
             string[] queens =
-            {"Brigiding", "Corazon", "Eva Le Queen", "Gigi Era",
-            "Lady Morgana", "Marina Summers", "Minty Fresh", "Precious Paula Nicole",
-            "Prince", "Turing", "Viñas DeLuxe", "Xilhouete" };
+            {"1.Brigiding", "2. Corazon", "3. Eva Le Queen", "4. Gigi Era",
+            "5. Lady Morgana", "6. Marina Summers", "7. Minty Fresh", "8. Precious Paula Nicole",
+            "9. Prince", "10. Turing", "11. Viñas DeLuxe", "12. Xilhouete" };
 
             string[] quotes = {
             "Finally! I'm here! Bring it on, girls!",           							        // 1. Brigiding
@@ -26,7 +26,6 @@
 
             Random random = new Random();
             bool Menu = true;
-
 
             while (Menu)
             {
@@ -94,14 +93,14 @@
                         }
                     }
                 }
-
                 else if (SeasonInput == 2 || SeasonInput == 3)
                 {
                         // Under Construction
                         Console.Clear();
                         Console.WriteLine("UNDER CONSTRUCTION");
                         Console.WriteLine($"Season {SeasonInput} is coming soon!");
-                        Console.WriteLine("Abangan ninyo, mga mare!");
+                        Console.WriteLine("HINDI PA  NGA NAGAGAWA TEH KULIT!");
+                        Console.WriteLine("Abangan ninyo, mga SISSY Q!");
                         Console.WriteLine();
                         Console.WriteLine("Press any key to go back...");
                         Console.ReadKey();
