@@ -98,7 +98,14 @@
 
                 else if (SeasonInput == 2 || SeasonInput == 3)
                 {
-
+                        // Under Construction
+                        Console.Clear();
+                        Console.WriteLine("🚧 UNDER CONSTRUCTION 🚧");
+                        Console.WriteLine($"Season {seasonChoice} is coming soon!");
+                        Console.WriteLine("Abangan ninyo, mga mare! 💅");
+                        Console.WriteLine();
+                        Console.WriteLine("Press any key to go back...");
+                        Console.ReadKey();
                 }
 
             }
